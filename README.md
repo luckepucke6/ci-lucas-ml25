@@ -14,7 +14,7 @@ make check             # lint, typecheck, tests
 make mlflow-ui         # http://localhost:5000
 ```
 
-## Ingestion
+## Ingestiono
 
 ```bash
 uv run python -m pricefc ingest prices -z SE1 -z SE2 -z SE3 -z SE4      # resumable, per month
